@@ -1,0 +1,14 @@
+---
+- name: download deb...
+  become: yes
+  become_user: root
+  get_url:
+    url: '{{urbit_deb_url}}'
+    dest: /tmp/{{urbit_deb}}
+    mode: 0644
+- name: install deb
+  become: yes
+  become_user: root
+  apt:
+    deb: /tmp/{{urbit_deb}}
+  

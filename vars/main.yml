@@ -1,0 +1,4 @@
+---
+# vars file for urbit
+urbit_deb: urbit_{{urbit_ver}}{{urbit_pkg_suffix}}_{{urbit_platform}}.deb
+urbit_deb_url: '{{urbit_mirror}}/v{{urbit_ver}}/{{urbit_deb}}'

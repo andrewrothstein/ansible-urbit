@@ -1,0 +1,6 @@
+---
+# defaults file for urbit
+urbit_ver: '0.4.5'
+urbit_pkg_suffix: '-1'
+urbit_platform: amd64
+urbit_mirror: https://github.com/urbit/urbit/releases/download

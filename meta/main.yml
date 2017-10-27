@@ -1,0 +1,21 @@
+---
+galaxy_info:
+  author: Andrew Rothstein
+  description: installs urbit from OS pkgs
+  company: BlueMountain Capital
+  license:
+    - MIT
+  min_ansible_version: 2.0
+  platforms:
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+    - name: Debian
+      versions:
+        - jessie
+        - stretch
+  galaxy_tags:
+    - development
+
+dependencies: []
