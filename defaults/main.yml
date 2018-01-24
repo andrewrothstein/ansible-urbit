@@ -1,8 +1,9 @@
 ---
 # defaults file for urbit
 urbit_ver: '0.5.1'
-urbit_pkg_suffix: '-1'
+urbit_pkg_ver: '0.5'
+urbit_pkg_patch: '-1'
 urbit_platform: amd64
 urbit_mirror: https://github.com/urbit/urbit/releases/download
 urbit_checksums:
-  '0.5.1-1': sha256:6020cd52437b90484b8346c89ad51c45c5dee55f1d8f2031c4acd412a32ccb26
+  '0.5-1': sha256:6020cd52437b90484b8346c89ad51c45c5dee55f1d8f2031c4acd412a32ccb26
